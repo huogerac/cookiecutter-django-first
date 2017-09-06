@@ -7,9 +7,16 @@
     "description": "A short description of the project.",
     "version": "0.1.0",
     "_copy_without_render": [
-        "static/css",
-        "static/font",
-        "static/icons",
-        "static/js"
+        "*static",
+        "*.css",
+        "*.ttf",
+        "*.woff",
+        "*.woff2",
+        "*.eot",
+        "*.svg",
+        "LICENSE.txt",
+        "app-common.js",
+        "jquery.min.js",
+        "materialize.min.js"
     ]
 }
