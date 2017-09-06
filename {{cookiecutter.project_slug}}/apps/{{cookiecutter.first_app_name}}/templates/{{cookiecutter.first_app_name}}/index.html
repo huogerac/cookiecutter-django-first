@@ -76,9 +76,9 @@
 
 
 {% block extra_javascript %}
-{% endraw %}
-  <script src="{% static '{{ cookiecutter.first_app_name }}/js/index.js' %}"></script>
-{% raw %}
+
+  <script src="{% {% endraw %}static '{{ cookiecutter.first_app_name }}/js/index.js' {% raw %}%}"></script>
+
 {% endblock extra_javascript %}
 
 {% endraw %}
