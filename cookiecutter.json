@@ -7,7 +7,6 @@
     "description": "A short description of the project.",
     "version": "0.1.0",
     "_copy_without_render": [
-        "*static",
         "*.css",
         "*.ttf",
         "*.woff",
@@ -15,8 +14,6 @@
         "*.eot",
         "*.svg",
         "LICENSE.txt",
-        "app-common.js",
-        "jquery.min.js",
-        "materialize.min.js"
+        "*.js"
     ]
 }
